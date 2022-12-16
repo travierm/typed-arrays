@@ -12,7 +12,7 @@ class Song {
 }
 ```
 
-```
+```php
 <?php
 
 namespace Tmoorlag\PhpTypedArrays;
