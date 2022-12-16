@@ -1,0 +1,23 @@
+{
+  "name": "tmoorlag/php-typed-arrays",
+  "type": "project",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Tmoorlag\\PhpTypedArrays\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Travier Moorlag",
+      "email": "moorlagt@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "^9.5",
+    "subiabre/appgati": "^2.0"
+  },
+  "scripts": {
+    "test": "./vendor/phpunit/phpunit/phpunit"
+  }
+}
